@@ -303,10 +303,10 @@ header .navbar {
 }
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
-	font-size: 15px;
-	font-weight: 300;
+	font-size: 16px;
+	font-weight: 400;
 	letter-spacing: 0.5px;
-	color: #fff;
+	color: #000;
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -1059,7 +1059,25 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(../images/about_us.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+.page-heading2 {
+	text-align: center;
+	background-image: url(../images/production.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+.page-heading3 {
+	text-align: center;
+	background-image: url(../images/policy.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1075,6 +1093,21 @@ footer .contact-form button.filled-button:hover {
 	margin-bottom: 18px;
 }
 
+.page-heading2 h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+.page-heading3 h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
 .page-heading span {
 	font-size: 15px;
 	text-transform: uppercase;
@@ -1082,7 +1115,20 @@ footer .contact-form button.filled-button:hover {
 	color: #fff;
 	display: block;
 }
-
+.page-heading2 span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
+.page-heading3 span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
 
 /* team */
 
